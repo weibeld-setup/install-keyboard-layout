@@ -1,6 +1,6 @@
 # Logitech Swiss German Keyboard Layout
 
-Keyboard layout with some slight deviations from the default Swiss German keyboard layout that is preinstalled on most systems.
+Keyboard layout with some slight deviations from the default Swiss German keyboard layout that comes preinstalled on most systems.
 
 ## Characteristics
 
@@ -13,7 +13,7 @@ The most important differences to the default Swiss German keyboard layout are:
 
 ## Origin
 
-I orignally obtained the macOS keyboard layout file ([`LogitechSwissGerman.keylayout`](macos/LogitechSwissGerman.keylayout)) from a source that I can't remember. The Windows file ([`LogSwiss.klc`](windows/LogSwiss.klc)) has been generated from the macOS version, as described 
+I orignally obtained the macOS keyboard layout file ([`LogitechSwissGerman.keylayout`](macos/LogitechSwissGerman.keylayout)) from a source that I can't remember. The Windows file ([`LogSwiss.klc`](windows/LogSwiss.klc)) has been generated from the macOS version, as described in [macOS to Windows conversion](#macos-to-windows-conversion).
 
 ## Installation
 
