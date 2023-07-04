@@ -52,7 +52,7 @@ Now, you should be able to find and activate the _Logitech Swiss German_ keyboar
 
 **_Settings > Time & Language > Language > Keyboard > Override for default input method_**
 
-After installation, keep the `logswiss` directory somewhere on the system as the `setup.exe` file allows to cleanly uninstall the keyboard layout. Uninstallation is necessary if you want to make any changes to the layout and then reinstall it because MSKLC refuses to export a keyboard layout with the same name as an already installed one. In this case, first uninstall the existing keyboard layout with `setup.exe`, edit the `.klc` file and then repeat the installation steps above.
+After installation, keep the `logswiss` directory somewhere on the system, as the `setup.exe` file allows to cleanly uninstall the keyboard layout. Uninstallation is necessary if you want to make any changes to the layout and then reinstall it because MSKLC refuses to export a keyboard layout with the same name as an already installed one. In this case, first uninstall the existing keyboard layout with `setup.exe`, edit the `.klc` file (or load the `.klc` file into MSKLC and make edits there), and then repeat the installation steps above.
 
 > **Note:** the name of a keyboard layout file on Windows may have at most 8 characters (excluding the extension). That's why the name of the file has been shortened to `LogSwiss.klc`.
 
@@ -68,7 +68,7 @@ As mentioned, the Windows keyboard layout file has been generated from the macOS
 
 The above converts the `.keylayout` file to a `.klc` file named `Logitech.klc`
 
-> The file name is shortened to 8 characters (excluding extension) because Windows key layout files may only have names with at most 8 characters.
+> The file name is automatically shortened to 8 characters (excluding the extension) by above tool because Windows key layout files may only have names with at most 8 characters.
 
 For some reason, the `OEM_3` key (§/°) and `OEM_102` key (</>) seem to be swapped on macOS and Windows keyboards. For this reason, the corresponding mappings have bene manually swapped in the generated `.klc` file as follows:
 
