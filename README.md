@@ -46,7 +46,9 @@ To install the keyboard layout, you must build a setup package from the [`LogSwi
 
 ### macOS
 
-The macOS `LogitechSwissGerman.keylayout` file has been obtained as-is from an unknown source.
+The macOS `LogitechSwissGerman.keylayout` file has been obtained from [Ukelele](https://software.sil.org/ukelele).
+
+> The Ukelele keyboard layout files can be retrieved from the [Ukelele DMG file](https://software.sil.org/ukelele/#downloads) by double-clicking on it and going to `Resources/Standard Keyboards`. The _Logitech Swiss German_ keyboard layout is located in the bundle directory `Logitech Keyboard Layouts.bundle`.
 
 ### Windows
 
