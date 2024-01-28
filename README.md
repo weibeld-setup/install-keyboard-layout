@@ -6,11 +6,14 @@ Customised Swiss German keyboard layout based on the [Logitech Swiss German](Log
 
 Some features and differences between this customised Swiss German keyboard layout, the Logitech Swiss German keyboard layout, and the native Swiss German keyboard layout on macOS are listed below:
 
-| Char | Description | Custom Swiss German | Logitech Swiss German | Native Swiss German |
-|:----:|-------------|---------------------|-----------------------|---------------------|
-| \|   |             | _**Opt-1**_         | _Opt-1_               | _Opt-7_             |
-| –    | en-dash     | _**Opt-[-]**_       | _Opt-[-]_             | _Opt-[-]_           |
-| —    | em-dash     | _**Ctrl-Opt-[-]**_  | —                     | —                   |
+| Char  | Description | Custom Swiss German     | Logitech Swiss German | Native Swiss German |
+|:-----:|-------------|-------------------------|-----------------------|---------------------|
+| \|    |             | _**Opt-1**_             | _Opt-1_               | _Opt-7_             |
+| –     | en-dash     | _**Opt-[-]**_           | _Opt-[-]_             | _Opt-[-]_           |
+| —     | em-dash     | _**Ctrl-Opt-[-]**_      | —                     | —                   |
+| āēīōū |             | _**Opt-[AEIOU]**_       | —                     | —                   |
+| ĀĒĪŌŪ |             | _**Opt-Shift-[AEIOU]**_ | —                     | —                   |
+| €     |             | _**Opt-R**_             | _Opt-E_               | _Opt-E_             |
 
 ## Installation
 
