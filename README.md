@@ -1,12 +1,12 @@
-# Custom Swiss German Keyboard Layout
+# Custom Keyboard Layout
 
-Customised Swiss German keyboard layout based on the [Logitech Swiss German](LogitechSwissGerman.keylayout) keyboard layout.
+Customised keyboard layout based on the [Logitech Swiss German](LogitechSwissGerman.keylayout) keyboard layout.
 
 ## Features
 
-Some features and differences between this customised Swiss German keyboard layout, the Logitech Swiss German keyboard layout, and the native Swiss German keyboard layout on macOS are listed below:
+Differences between this keyboard layout, the Logitech Swiss German keyboard layout, and the macOS native Swiss German keyboard layout:
 
-| Char  | Description | Custom Swiss German     | Logitech Swiss German | Native Swiss German |
+| Char  | Description | Custom                  | Logitech Swiss German | Native Swiss German |
 |:-----:|-------------|-------------------------|-----------------------|---------------------|
 | \|    |             | _**Opt-1**_             | _Opt-1_               | _Opt-7_             |
 | –     | en-dash     | _**Opt-[-]**_           | _Opt-[-]_             | _Opt-[-]_           |
@@ -19,15 +19,14 @@ Some features and differences between this customised Swiss German keyboard layo
 
 ### macOS
 
-1. Download [`CustomSwissGerman.keylayout`](CustomSwissGerman.keylayout) and [`CustomSwissGerman.icns`](CustomSwissGerman.icns)
+1. Download [`CustomSwissGerman.keylayout`](https://raw.githubusercontent.com/weibeld-personalisation/custom-swiss-german-keyboard-layout/main/CustomSwissGerman.keylayout) and [`CustomSwissGerman.icns`]((https://raw.githubusercontent.com/weibeld-personalisation/custom-swiss-german-keyboard-layout/main/CustomSwissGerman.icns)
 1. Copy both files to `/Library/Keyboard Layouts`:
     ```bash
     sudo cp CustomSwissGerman.* /Library/Keyboard\ Layouts
     ```
+1. Log out of macOS and log in again
 1. Go to **_System Preferences > Keyboard > Text Input > Edit... > [+] > Others_**
 1. Locate and add the the **Custom Swiss German** keyboard layout
-
-> **Note:** if the Custom Swiss German keyboard layout isn't listed in the input sources window, log out of macOS and log in again.
 
 ### Windows
 
