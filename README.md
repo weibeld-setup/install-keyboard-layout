@@ -19,7 +19,7 @@ Differences between this keyboard layout, the Logitech Swiss German keyboard lay
 
 ### macOS
 
-1. Download [`CustomSwissGerman.keylayout`](https://raw.githubusercontent.com/weibeld-personalisation/custom-swiss-german-keyboard-layout/main/CustomSwissGerman.keylayout) and [`CustomSwissGerman.icns`]((https://raw.githubusercontent.com/weibeld-personalisation/custom-swiss-german-keyboard-layout/main/CustomSwissGerman.icns)
+1. Download [`CustomSwissGerman.keylayout`](https://raw.githubusercontent.com/weibeld-personalisation/custom-swiss-german-keyboard-layout/main/CustomSwissGerman.keylayout) and [`CustomSwissGerman.icns`](https://raw.githubusercontent.com/weibeld-personalisation/custom-swiss-german-keyboard-layout/main/CustomSwissGerman.icns)
 1. Copy both files to `/Library/Keyboard Layouts`:
     ```bash
     sudo cp CustomSwissGerman.* /Library/Keyboard\ Layouts
