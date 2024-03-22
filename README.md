@@ -1,8 +1,9 @@
 # Keyboard Layout
 
-![macOS](https://img.shields.io/badge/macOS-lightgreen?logo=apple&labelColor=green&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-orange?logo=ubuntu&labelColor=red&logoColor=white)
-![Windows](https://img.shields.io/badge/Windows-lightblue?logo=windows&labelColor=blue&logoColor=white)
+![macOS](https://raw.githubusercontent.com/weibeld-setup/.github/main/badges/macos.svg)
+![Linux](https://raw.githubusercontent.com/weibeld-setup/.github/main/badges/linux.svg)
+![Windows](https://raw.githubusercontent.com/weibeld-setup/.github/main/badges/windows.svg)
+![Android](https://raw.githubusercontent.com/weibeld-setup/.github/main/badges/android.svg)
 
 Custom keyboard layout based on the Logitech Swiss German keyboard layout.
 
