@@ -41,7 +41,7 @@ To install the keyboard layout, you must build a setup package from the [`Custom
 
 ## Notes
 
-### Keyboard layout
+### Mappings
 
 The keyboard layout is based on the Logitech Swiss German layout. The differences to the Logitech Swiss German layout, and also the native macOS Swiss German layout, are listed below:
 
@@ -54,19 +54,19 @@ The keyboard layout is based on the Logitech Swiss German layout. The difference
 | `Ā`, `Ē`, `Ī`, `Ō`, `Ū` | `Opt-Shift-[AEIOU]` | —                     | —                   |
 | `€`                     | `Opt-R`             | `Opt-E`               | `Opt-E`             |
 
-> As can be seen, the custom keyboard layout mainly adds combinations for typing vowels with macrons (e.g `ā`) as they are used, for example, in Japanese romanisation systems.
+> As can be seen, the custom keyboard layout, among others, adds key mappings for vowels with macrons (e.g `ā`) as they are used, for example, in Japanese romanisation systems.
 
 ### File origins
 
-**[`LogitechSwissGerman.keylayout`](macos/LogitechSwissGerman.keylayout):**
+#### `LogitechSwissGerman.keylayout`
 
 Obtained from [Ukelele](https://software.sil.org/ukelele) by opening its [DMG file](https://software.sil.org/ukelele/#downloads) and navigating to _**Resources/Standard Keyboards**_. The Logitech Swiss German keyboard layout is located in the _**Logitech Keyboard Layouts.bundle**_ file.
 
-**[`CustomSwissGerman.keylayout`](macos/CustomSwissGerman.keylayout)**
+#### `CustomSwissGerman.keylayout`
 
 Created with Ukelele by using the `LogitechSwissGerman.keylayout` as a base.
 
-**[`CustomSw.klc`](windows/CustomSw.klc)**
+#### `CustomSw.klc`
 
 Generated from `LogitechSwissGerman.keylayout` as explained in [Windows keyboard layout file generation](#windows-keyboard-layout-file-generation) below.
 
