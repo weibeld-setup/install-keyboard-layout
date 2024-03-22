@@ -1,6 +1,7 @@
 # Keyboard Layout
 
 ![macOS](https://img.shields.io/badge/macOS-lightgreen?logo=apple&labelColor=green&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-lightorange?logo=ubuntu&labelColor=orange&logoColor=white)
 ![Windows](https://img.shields.io/badge/Windows-lightblue?logo=windows&labelColor=blue&logoColor=white)
 
 Custom keyboard layout based on the Logitech Swiss German keyboard layout.
