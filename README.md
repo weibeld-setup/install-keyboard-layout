@@ -11,7 +11,7 @@ Custom keyboard layout based on the Logitech Swiss German keyboard layout.
 
 ![macOS](https://raw.githubusercontent.com/weibeld-setup/.github/main/badges/macos.svg)
 
-1. Download [`CustomSwissGerman.keylayout`](https://raw.githubusercontent.com/weibeld-personalisation/custom-swiss-german-keyboard-layout/main/CustomSwissGerman.keylayout) and [`CustomSwissGerman.icns`](https://raw.githubusercontent.com/weibeld-personalisation/custom-swiss-german-keyboard-layout/main/CustomSwissGerman.icns)
+1. Download [`CustomSwissGerman.keylayout`](https://raw.githubusercontent.com/weibeld-setup/install-keyboard-layout/main/macos/CustomSwissGerman.keylayout) and [`CustomSwissGerman.icns`](https://raw.githubusercontent.com/weibeld-setup/install-keyboard-layout/main/macos/CustomSwissGerman.icns)
 1. Copy both files to `/Library/Keyboard Layouts`:
     ```bash
     sudo cp CustomSwissGerman.* /Library/Keyboard\ Layouts
@@ -26,10 +26,10 @@ Custom keyboard layout based on the Logitech Swiss German keyboard layout.
 
 > Tested on Windows 10.
 
-To install the keyboard layout, you must build a setup package from the [`CustomSw.klc`](CustomSw.klc) file and then install this package:
+To install the keyboard layout, you must build a setup package from the [`CustomSw.klc`](windows/CustomSw.klc) file and then install this package:
 
 1. Download and install the [Microsoft Keyboard Layout Creator (MSKLC)](https://www.microsoft.com/en-us/download/details.aspx?id=102134)
-1. Download the [`CustomSw.klc`](CustomSw.klc) file
+1. Download the [`CustomSw.klc`](windows/CustomSw.klc) file
 1. In MSKLC, go to _**File > Load Source File...**_ and select the `CustomSw.klc` file
 1. Click on _**Project > Build DLL and Setup Package**_
    > This creates a directory called `customsw` in the current working directory. There may be a dialog notifying about warnings during the build which can be ignored.
@@ -58,9 +58,17 @@ The keyboard layout is based on the Logitech Swiss German layout. The difference
 
 ### File origins
 
-- [`LogitechSwissGerman.keylayout`](LogitechSwissGerman.keylayout): obtained from [Ukelele](https://software.sil.org/ukelele) by opening its [DMG file](https://software.sil.org/ukelele/#downloads) and navigating to `Resources/Standard Keyboards`. The Logitech Swiss German keyboard layout is located in the `Logitech Keyboard Layouts.bundle` file.
-- [`CustomSwissGerman.keylayout`](CustomSwissGerman.keylayout): created with Ukelele by using the `LogitechSwissGerman.keylayout` as a base.
-- [`CustomSw.klc`](CustomSw.klc): generated from `LogitechSwissGerman.keylayout` as explained in [Windows keyboard layout file generation](#windows-keyboard-layout-file-generation) below.
+**[`LogitechSwissGerman.keylayout`](macos/LogitechSwissGerman.keylayout):**
+
+Obtained from [Ukelele](https://software.sil.org/ukelele) by opening its [DMG file](https://software.sil.org/ukelele/#downloads) and navigating to _**Resources/Standard Keyboards**_. The Logitech Swiss German keyboard layout is located in the _**Logitech Keyboard Layouts.bundle**_ file.
+
+**[`CustomSwissGerman.keylayout`](macos/CustomSwissGerman.keylayout)**
+
+Created with Ukelele by using the `LogitechSwissGerman.keylayout` as a base.
+
+**[`CustomSw.klc`](windows/CustomSw.klc)**
+
+Generated from `LogitechSwissGerman.keylayout` as explained in [Windows keyboard layout file generation](#windows-keyboard-layout-file-generation) below.
 
 ### Windows keyboard layout file generation
 
