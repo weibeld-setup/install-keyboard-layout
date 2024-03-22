@@ -1,6 +1,15 @@
-# Custom Keyboard Layout
+# Keyboard Layout
 
-Customised keyboard layout based on the [Logitech Swiss German](LogitechSwissGerman.keylayout) keyboard layout.
+![Windows](https://img.shields.io/badge/Windows-lightblue?logo=windows&labelColor=blue&logoColor=white&style=for-the-badge)
+![macOS](https://img.shields.io/badge/macOS-lightblue?logo=apple&labelColor=blue&logoColor=white&style=for-the-badge)
+
+Custom keyboard layout based on the Logitech Swiss German keyboard layout.
+
+## How to use it?
+
+
+## What is it?
+
 
 ## Features
 
