@@ -3,7 +3,7 @@
 ![macOS](https://raw.githubusercontent.com/weibeld-setup/.github/main/badges/macos.svg)
 ![Windows](https://raw.githubusercontent.com/weibeld-setup/.github/main/badges/windows.svg)
 
-Custom keyboard layout based on the Logitech Swiss German layout.
+Custom keyboard layout based on the Logitech Swiss German keyboard layout.
 
 ## Installation
 
@@ -18,7 +18,7 @@ Custom keyboard layout based on the Logitech Swiss German layout.
     ```
 1. Log out of macOS and log in again
 1. Go to **_System Preferences > Keyboard > Text Input > Edit... > [+] > Others_**
-1. Locate and add the the **Custom Swiss German** keyboard layout
+1. Locate the **Custom Swiss German** keyboard layout in the list and add it
 
 ### Windows
 
@@ -43,7 +43,7 @@ To install the keyboard layout, you must build a setup package from the [`Custom
 
 ### Keyboard layout
 
-The keyboard layout is based on the Logitech Swiss German layout. The differences between this keyboard layout, the Logitech Swiss German layout, and the native macOS Swiss German layout are listed below:
+The keyboard layout is based on the Logitech Swiss German layout. The differences to the Logitech Swiss German layout, and also the native macOS Swiss German layout, are listed below:
 
 | Character               | Custom              | Logitech Swiss German | macOS Swiss German |
 |:-----------------------:|---------------------|-----------------------|---------------------|
@@ -54,15 +54,17 @@ The keyboard layout is based on the Logitech Swiss German layout. The difference
 | `Ā`, `Ē`, `Ī`, `Ō`, `Ū` | `Opt-Shift-[AEIOU]` | —                     | —                   |
 | `€`                     | `Opt-R`             | `Opt-E`               | `Opt-E`             |
 
+> As can be seen, the custom keyboard layout mainly adds combinations for typing vowels with macrons (e.g `ā`) as they are used, for example, in Japanese romanisation systems.
+
 ### File origins
 
-- The [`LogitechSwissGerman.keylayout`](LogitechSwissGerman.keylayout) file has been obtained from [Ukelele](https://software.sil.org/ukelele) by opening its [DMG file](https://software.sil.org/ukelele/#downloads) and navigating to `Resources/Standard Keyboards`. The Logitech Swiss German keyboard layout is located in the `Logitech Keyboard Layouts.bundle` file.
-- The [`CustomSwissGerman.keylayout`](CustomSwissGerman.keylayout) file has been created with Ukelele by using the [`LogitechSwissGerman.keylayout`](LogitechSwissGerman.keylayout) file as a base.
-- The ([`CustomSw.klc`](CustomSw.klc)) file  has been generated from [`LogitechSwissGerman.keylayout`](LogitechSwissGerman.keylayout) version as explained in [Windows keyboard layout file generation](#windows-keyboard-layout-file-generation) below.
+- [`LogitechSwissGerman.keylayout`](LogitechSwissGerman.keylayout): obtained from [Ukelele](https://software.sil.org/ukelele) by opening its [DMG file](https://software.sil.org/ukelele/#downloads) and navigating to `Resources/Standard Keyboards`. The Logitech Swiss German keyboard layout is located in the `Logitech Keyboard Layouts.bundle` file.
+- [`CustomSwissGerman.keylayout`](CustomSwissGerman.keylayout): created with Ukelele by using the `LogitechSwissGerman.keylayout` as a base.
+- [`CustomSw.klc`](CustomSw.klc): generated from `LogitechSwissGerman.keylayout` as explained in [Windows keyboard layout file generation](#windows-keyboard-layout-file-generation) below.
 
 ### Windows keyboard layout file generation
 
-The following explains how to generate [`CustomSw.klc`](CustomSw.klc) from [`CustomSwissGerman.keylayout`](CustomSwissGerman.keylayout):
+The following explains how to generate the `CustomSw.klc` file from `CustomSwissGerman.keylayout`:
 
 1. Clone [adobe-type-tools/keyboard-layouts](https://github.com/adobe-type-tools/keyboard-layouts):
    ```bash
@@ -72,8 +74,7 @@ The following explains how to generate [`CustomSw.klc`](CustomSw.klc) from [`Cus
     ```bash
     python3 mac2winKeyboard.py CustomSwissGerman.keylayout
     ```
-    > This should create or overwrite the `CustomSw.klc` file in the same directory as the `CustomSwissGerman.keylayout` file.
-1. Do the following manual fixes in the `CustomSw.klc` file:
+1. Do the following manual fixes in the created `CustomSw.klc` file:
    1. Change the line:
       ```bash
       29  OEM_3		SGCap	003c	003e	-1	-1	005c	2030	// LESS-THAN SIGN, GREATER-THAN SIGN, <none>, <none>, REVERSE SOLIDUS, PER MILLE SIGN
@@ -90,6 +91,6 @@ The following explains how to generate [`CustomSw.klc`](CustomSw.klc) from [`Cus
       ```bash
       56  OEM_102		0	003c	003e	-1	-1	005c	2030	// LESS-THAN SIGN, GREATER-THAN SIGN, <none>, <none>, REVERSE SOLIDUS, PER MILLE SIGN
       ```
-   > The above fixes are necessary because the `OEM_3` key (`§ `/`/`/`°`) and `OEM_102` key (`<`/`/`/`>`) seem to be swapped on macOS keyboards with respect to Windows keyboards.
+    The above fixes are necessary because the `OEM_3` key (`§ `/`/`/`°`) and `OEM_102` key (`<`/`/`/`>`) seem to be swapped on macOS keyboards with respect to Windows keyboards.
 is 
 > **Note:** keyboard layout file names on Windows can have at most 8 characters (excluding the extension). That's why the name of the output file is shortened to `CustomSw.klc`.
