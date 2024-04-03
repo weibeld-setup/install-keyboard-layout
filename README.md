@@ -1,7 +1,7 @@
 # Keyboard Layout
 
-![macOS](https://raw.githubusercontent.com/weibeld-setup/.github/main/badges/macos.svg)
-![Windows](https://raw.githubusercontent.com/weibeld-setup/.github/main/badges/windows.svg)
+![macOS](https://raw.githubusercontent.com/weibeld-setup/.github/main/badge/macos.svg)
+![Windows](https://raw.githubusercontent.com/weibeld-setup/.github/main/badge/windows.svg)
 
 Custom keyboard layout based on the Logitech Swiss German keyboard layout.
 
@@ -9,7 +9,7 @@ Custom keyboard layout based on the Logitech Swiss German keyboard layout.
 
 ### macOS
 
-![macOS](https://raw.githubusercontent.com/weibeld-setup/.github/main/badges/macos.svg)
+![macOS](https://raw.githubusercontent.com/weibeld-setup/.github/main/badge/macos.svg)
 
 1. Download [`CustomSwissGerman.keylayout`](https://raw.githubusercontent.com/weibeld-setup/install-keyboard-layout/main/macos/CustomSwissGerman.keylayout) and [`CustomSwissGerman.icns`](https://raw.githubusercontent.com/weibeld-setup/install-keyboard-layout/main/macos/CustomSwissGerman.icns)
 1. Copy both files to `/Library/Keyboard Layouts`:
@@ -22,7 +22,7 @@ Custom keyboard layout based on the Logitech Swiss German keyboard layout.
 
 ### Windows
 
-![Windows](https://raw.githubusercontent.com/weibeld-setup/.github/main/badges/windows.svg)
+![Windows](https://raw.githubusercontent.com/weibeld-setup/.github/main/badge/windows.svg)
 
 > Tested on Windows 10.
 
